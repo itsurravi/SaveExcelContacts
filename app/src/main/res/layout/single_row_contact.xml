@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#d95c5c"
+            android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:id="@+id/textViewSNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.0">
+            <TextView
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:ellipsize="end"
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ajay Khatri"
+                android:singleLine="true"
+                android:drawableLeft="@drawable/user"
+                android:layout_alignParentTop="true" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/ll123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewName"
+                android:layout_centerVertical="true">
+                <TextView
+                    android:textColor="#000"
+                    android:ellipsize="end"
+                    android:id="@+id/textViewMobileHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:singleLine="true"
+                    android:drawableLeft="@drawable/phone"
+                    android:layout_weight="1.0" />
+                <TextView
+                    android:textColor="#000"
+                    android:ellipsize="end"
+                    android:id="@+id/textViewMobileWork"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:singleLine="true"
+                    android:drawableLeft="@drawable/phone"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll123">
+                <TextView
+                    android:textColor="#000"
+                    android:ellipsize="end"
+                    android:id="@+id/textViewMobileOffice1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:singleLine="true"
+                    android:drawableLeft="@drawable/phone"
+                    android:layout_weight="1.0" />
+                <TextView
+                    android:textColor="#000"
+                    android:ellipsize="end"
+                    android:id="@+id/textViewMobileOffice2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:singleLine="true"
+                    android:drawableLeft="@drawable/phone"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

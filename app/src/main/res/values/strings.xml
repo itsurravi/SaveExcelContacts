@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Save Excel Contacts</string>
+    <string name="currentDir">Select XLS</string>
+    <string name="folder">Folder</string>
+    <string name="fileSize">File Size</string>
+    <string name="parentDirectory">Parent Directory</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
